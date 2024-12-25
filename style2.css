@@ -1,0 +1,88 @@
+*{
+    padding: 0;margin: 0;
+}
+body{
+    background-image: url(media/Background_image.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    border: 5px solid yellow;
+    box-shadow: 5px 5px 8px aqua, -5px -5px 8px aqua ;
+    margin-top: 70px;
+    z-index:100;
+    width: 400px;
+    height: 500px;
+    opacity:0.8;
+    border-radius: 30px;
+    background-color:transparent;
+    text-align: center;
+}
+.login{
+    text-align: center;
+    margin: 40px 20px;
+    color: yellow;
+}
+i{
+    font-size: 30px;
+    position: relative;
+    top: 4px;
+    left: -41px;
+}
+#textbox, #textbox1{
+    background-color:antiquewhite;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 10px;
+    width: 300px;
+    height: 40px;
+    color:red;
+    border-radius: 50px;
+    font-family:cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: medium;
+}
+.checkbox{
+    position: relative;
+    left: -50px;
+    display: inline-block;
+}
+p{
+    position: relative;
+    left: -40px;
+    display: inline-block;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:aquamarine;
+}
+a{
+    text-decoration: none;
+    position: relative;
+    left: 50px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:aquamarine;
+}
+button{
+    width: 300px;
+    height: 40px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-family: cursive;
+    font-size: medium;
+    font-weight: 700;
+    color: red;
+    background-color: aquamarine;
+    box-shadow: 5px 5px 5px white, -5px -5px 5px white;
+}
+#back{
+    width: 500px;
+    text-align: center;
+    position: relative;
+    padding-top: 50px;
+    left: 120px;
+}
